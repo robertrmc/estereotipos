@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name=" " content="Pagina responsive, adapatable para todo dispositivo" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/estilos.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Proyecto Web</title>
+    <link rel="icon" type="image/png", href="../img/logo2.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+<div class="wholepage">
+    <!--Comienzo de header-->
+    <div class="container-fluid header" >
+        <nav class="navbar navbar-expand-lg navbar-dark" >
+            
+                <div class="col-lg-4 header__brand">
+                    <img src="../img/logo.png" class="img-responsive img-rounded header__brand__logo" >
+                    <a class="navbar-brand header__brand__texto" href="" target="_blank"> Estereotipos <strong></strong> </a>
+                </div>
+                
+                <div class= "col-lg-4"></div>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="col-lg-4 collapse navbar-collapse header__menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 header__menu__listado">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#curriculum">Secciones</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#proyectos">Tareas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"aria-current="page" href="#contacto">Contacto</a>
+                    </li>
+                   
+                    </ul>
+                </div>  
+        </nav>    
+    </div>
+    <!--Fin de header-->
+    <!--Comienzo Presentación-->
+    <div class="container-fluid presentacion">
+       <!--Principio Slides-->
+       <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url('../img/resized/soyyo.jpg')" >
+            <div class="container">
+                <h2>El Lado Oscuro de los Estereotipos</h2>
+                <p> Afectación de los estereotipos en los adolescentes a traves de las redes sociales</p>
+            </div>
+           
+          </div>
+          <div class="carousel-item" style="background-image: url('../img/biblioteca.jpg')" >
+            <div class="container">
+                <h2>Objetivo:</h2>
+                <p>Como se sabe las redes sociales han impuesto ciertos estereotipos marcados por la sociedad haciendo que los jóvenes quieran crear una copia misma para poder ser aceptados tal y como se les refleja. Este sitio busca concientizar a la comunidad de esta problemática a través de una ardua investigación, con el fin de informar con la verdad</p>
+            </div>
+
+            
+          </div>
+          <div class="carousel-item"style="background-image: url('../img/resized/ruleta.jpg')">
+            <div class="container">
+                <h2> Integrantes:</h2>
+                <p>
+                    # Becerra Ramírez Michelle
+                    # Cisneros Martinez Fernanda
+                    # Pacheco Ramirez Ian Manuel
+                    # Ramirez Silva Yadira Marlene
+                    # Serrano Coronel Maria Lizeth #
+                </p>
+            </div>
+
+              
+            
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+       <!--Fin Slides--> 
+    </div>
+    <!--Fin de presentacion-->
+    <!--Comienzo curriculum-->
+    <br>
+    <div class="container-fluid parrafo">
+      <p class="parrafo__texto" id="curriculum">Secciones </p>  
+    </div>
+    
+    <div class="container-fluid fondocurriculum col-lg-12">
+        <div class="row ">
+            <div class="col-lg-1 "></div>
+            <div class="col-lg-10 ">
+                <p class="row__botones">
+                    <button class="btn btn-outline-light " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFormacion" aria-expanded="false" aria-controls="collapseFormacion">
+                        Concepto
+                      </button>
+                    <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHabilidades" aria-expanded="false" aria-controls="collapseHabilidades">
+                        Tipos de Estereotipos
+                    </button>
+                    <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExperiencia" aria-expanded="false" aria-controls="collapseExperiencia">
+                        Redes Sociales
+                      </button>
+                    <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogros" aria-expanded="false" aria-controls="collapseLogros">
+                        Consecuencia y Recomendaciones
+                    </button>
+                  </p>
+                  <div class="collapse cartaeducacion" id="collapseFormacion">
+                    <div class="card card-body">
+                        El término estereotipo hace referencia a una imagen o idea aceptada comúnmente por un grupo o sociedad con carácter inmutable. Habitualmente se trata de ideas construidas a partir de prejuicios que cada sociedad establece conforme a su ideología o su modelo de conducta, estas representaciones se utilizan para explicar el comportamiento de hombres y mujeres y determinar los diferentes papeles que deben desempeñar en la sociedad.
+
+                    </div>
+                  </div>
+    
+                  <div class="collapse cartaeducacion" id="collapseHabilidades">
+                    <div class="card card-body">
+                        •	Cuerpos voluminosos-fitness<br> 
+                        •	Cutis perfectos<br> 
+                        •	Estatus social alto<br> 
+                        •	Estilos glamurosos<br> 
+                        •	Movimientos sexistas<br> 
+                        •	Popularidad<br> 
+
+                
+                    </div>
+                  </div>
+    
+                  <div class="collapse cartaeducacion" id="collapseExperiencia">
+                    <div class="card card-body">
+                        En otras redes sociales como son Instragram, Facebook y Tik Tok también se manejan los estereotipos, ya que en ellas se publican fotografías de cómo se vistieron hoy, que comprarán, qué comerán o incluso dónde están, de esta manera al dar like o me gusta a estas publicaciones se empieza a crear el estereotipo, ya que empezarán a imitar los tipos de vestir, lo que comen, a donde van o incluso tratar de ser amigos para entrar en su grupo social.
+                        
+                    </div>
+                  </div>
+    
+                  <div class="collapse cartaeducacion" id="collapseLogros">
+                    <div class="card card-body">
+                        En esta etapa es importante que los adolescentes desarrollen la comunicación con otras
+                        personas para enriquecer su autoestima, las redes sociales en estos tiempos son una gran herramienta para poder estar en contacto con personas de extremo a extremo del mundo, pero
+                        también se a vuelto la adición de muchos jóvenes que todo el tiempo tienen que estar pendiente
+                        de la aprobación de otros mediante estas plataformas creando inseguridad, baja autoestima y
+                        mal desarrollo cognitivo.
+                        El hecho de la obsesión de ser aceptados por esta comunidad, los adolescentes que utilizan la
+                        aplicación tienden a compararse con otros y podrían formarse ideas falsas sobre su imagen
+                        corporal. No solo es la influencia en redes sociales, si no en todos los medios de comunicación
+                        dejando ciertos padecimientos como lo es la depresión, ansiedad, problemas de sueño e
+                        inseguridad personal. La afectación por los estereotipos pueden ser diferentes variables: desde
+                        la baja autoestima hasta cambios físicos provocados por seguir un estándar de belleza.
+                        Los problemas psicológicos también se hacen presente aquí y este tipo de situaciones no deben
+                        pasar por desapercibido ya que como sabemos, la adolescencia es una etapa bastante importante
+                        dónde los jóvenes deben aprender sobre lo que es bueno y lo que es malo para ellos.                 
+                        <br>
+                        <br>
+                        La aceptación de nuestro propio cuerpo y la construcción de una autoestima a prueba de los estereotipos dictados por la sociedad es un gran reto el cual se puede combatir cuando realmente crees en ti mismo, lo mejor que puedes obtener es aceptación, una buena alimentación y la más importante paz y salud mental en ti mismo.
+                    </div>
+                  </div>
+            </div>
+        </div>
+     
+    </div>
+    <!--Fin de curriculum-->
+    <!--Comienzo de Proyectos-->
+    
+    <!--Fin de Proyectos--->
+
+
+
+
+
+  <!--Titulo-->
+  <div class="container-fluid parrafo">
+                  <p class="parrafo__texto" id="proyectos">Tareas </p>  
+  </div>
+<!--Casillas-->
+  <div class="container-fluid">
+      <div class="row row__contenedor">
+          <div class="casilla col-lg-4">
+              
+              <div class="circulo"> 
+              <p class="circulo__texto">1 </p></div>
+              <div class="row row__casilla"> 
+                  <p class="col-8 texto">> Entrevista
+                      <div class="col-4 texto__boton">
+                      <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#collapseweb" aria-expanded="false" aria-controls="collapseweb">Avance</button>
+                      </div></p>
+              </div>
+          </div>
+
+          <div class="casilla col-lg-4">
+              <div class="circulo amarillo"> 
+              <p class="circulo__texto"> 2 </p></div>
+              <div class="row row__casilla"> 
+                  <p class="col-8 texto">> Tarea 3
+                      <div class="col-4 texto__boton">
+                      <button type="button" class="btn btn-outline-light"data-bs-toggle="collapse" data-bs-target="#collapsegui" aria-expanded="false" aria-controls="collapsegui" >Avance</button>
+                      </div></p>
+              </div>
+          </div>
+
+          <div class="casilla col-lg-4">
+              <div class="circulo rojo"> 
+              <p class="circulo__texto"> 3 </p></div>
+              <div class="row row__casilla"> 
+                  <p class="col-8 texto">> Tarea 5
+                      <div class="col-4 texto__boton">
+                      <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#collapsarduino" aria-expanded="false" aria-controls="collapsarduino">Avance</button>
+                      </div></p>
+              </div>
+          </div>
+      </div>  
+  </div>
+
+
+
+<!--Despliegue de tabla-->
+<div class="container-fluid col-lg-10 ">
+  <div class="row txtcurriculum ">
+      <div class="col-lg-12">
+          <div class="row fondoweb">
+              
+                  <div class="collapse cartaeducacion " id="collapseweb" >
+                      <div class="card card-body">
+                          
+                          <img class="proyecto_imagen" src="../img/bloque1-1.JPG">
+                          <img class="proyecto_imagen" src="../img/bloque1-2.JPG">
+                          <img class="proyecto_imagen" src="../img/bloque1-3.JPG">
+                          <img class="proyecto_imagen" src="../img/bloque1-4.JPG">
+                          <img class="proyecto_imagen" src="../img/bloque1-5.JPG"> 
+                          <img class="proyecto_imagen" src="../img/bloque1-6.JPG">                  
+                      </div>
+                  </div>
+          </div>
+          <div class="row fondogui">
+                  <div class="collapse cartaeducacion" id="collapsegui">
+                      <div class="card card-body">
+                         
+                        <img class="proyecto_imagen" src="../img/bloque2-1.JPG">
+                        <img class="proyecto_imagen" src="../img/bloque2-2.JPG">
+                        <img class="proyecto_imagen" src="../img/bloque2-3.JPG">
+
+                      </div>
+                  </div>
+          </div>
+          <div class="row fondoarduino">
+                  <div class="collapse cartaeducacion" id="collapsarduino">
+                      <div class="card card-body">
+                        <img class="proyecto_imagen" src="../img/bloque3-1.JPG">
+                        <img class="proyecto_imagen" src="../img/bloque3-2.JPG">
+                        <img class="proyecto_imagen" src="../img/bloque3-3.JPG">
+
+
+                          
+                      </div>
+                  </div>
+              </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- Comienzo pie de pagina-->
+<br>
+    <div class="container-fluid piepagina">
+        <div class="row">
+            <div class="col-lg-1"></div>
+                <div class="col-lg-10"><br>
+                <p class="piepagina__contacto" id="contacto">Contacto </p><hr>
+                    <div class="row">
+                        <div class="col-lg-10">
+                       
+                        <a class="nav-link contacto__link" aria-current="page" href="https://www.instagram.com/ferybeep/" target="_blank">@ferybeep </a>
+                        <a class="nav-link contacto__link" aria-current="page" href="https://www.instagram.com/pp.gary/" target="_blank">@pp.gary</a>
+                        <a class="nav-link contacto__link" aria-current="page" href="https://www.instagram.com/yadiraramirez55/" target="_blank">@yadiraramirez55</a>
+                        <a class="nav-link contacto__link" aria-current="page" href="https://www.instagram.com/Dadyyian/" target="_blank">@Dadyyian</a>
+                        <a class="nav-link contacto__link" aria-current="page" href="https://www.instagram.com/_lisamary_98/" target="_blank">@_lisamary_98</a>
+                        </div>
+
+                        <div class="col-lg-2">
+                          <a class="nav-link contacto__link" aria-current="page" href="#curriculum" ></a>
+                          <a class="nav-link contacto__link" aria-current="page" href="#"></a>
+                          <a class="nav-link contacto__link" aria-current="page" href="#proyectos"> </a>
+                          <a class="nav-link contacto__link" aria-current="page" href="#contacto"></a>
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="col-lg-1"></div>
+        </div><br>
+    </div>
+<!--Final de pie de pagina-->   
+</div><!--Div de wholepage-->
+    
+
+
+</body>
+</html>
